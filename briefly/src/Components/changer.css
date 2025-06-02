@@ -1,0 +1,118 @@
+.changer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+.changer-container-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F87D2C;
+}   
+
+.changer-container-input-container-input {
+    width: 300px;
+    height:100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changer-container-input-container-input i {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+
+
+.changer-container-input-container-button {
+    height: 50px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changer-container-input-container-button-button {
+    background-color: #F87D2C;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.changer-container-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.changer-container-download p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.changer-container-download-button {
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.changer-container-download-button:hover {
+    background-color: #45a049;
+}
+
+.changer-container-download-button i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.changer-container-reset-button {
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #F87D2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.changer-container-reset-button:hover {
+    background-color: #f1f1f1;
+}
